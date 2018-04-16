@@ -32,4 +32,20 @@ public class Reporte4 extends AppCompatActivity {
             }
         }Toast.makeText(getApplicationContext(),getResources().getString(R.string.numero_app)+conteo,Toast.LENGTH_SHORT).show();
     }
+    public void reporte5(View v){
+        int conteo=0;
+        double total=0,resultado=0;
+        for (int i = 0; i <registro.size() ; i++) {
+            String nokia=getString(R.string.nokia);
+            if (registro.get(i).getMarca().toString().equals(nokia)){
+                conteo=conteo+1;
+                total=total+registro.get(i).getPrecio();
+            }resultado=total/conteo;
+
+        }Toast.makeText(getApplicationContext(),
+                getResources().getString(R.string.numero_celulares)+conteo+"\n"+
+                getResources().getString(R.string.precio_total)+total+"\n"+
+                getResources().getString(R.string.precio_promedio)+resultado,Toast.LENGTH_SHORT).show();
+    }
+
 }

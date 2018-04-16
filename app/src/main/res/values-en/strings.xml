@@ -24,4 +24,8 @@
     <string name="error2">"The box can not be 0 "</string>
     <string name="reporte4">Report 4</string>
     <string name="numero_app">Cell phone number brand apple black</string>
+    <string name="reporte5">Report 5</string>
+    <string name="precio_promedio">Average price of registered Nokia mobile phones:</string>
+    <string name="precio_total">Total price:</string>
+    <string name="numero_celulares">Number of cell phones :</string>
 </resources>

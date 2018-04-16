@@ -44,7 +44,10 @@
     <string name="erro1">La caja de texto no puede estar vacia</string>
     <string name="error2">La caja no puede ser 0</string>
     <string name="reporte4">Reporte 4 </string>
-    <string name="numero_app">Numero de celular marca apple de color negro </string>
-
+    <string name="numero_app">Numero de celular marca apple de color negro :</string>
+    <string name="reporte5">Reporte 5</string>
+    <string name="precio_promedio">Precio promedio de celulares marca nokia registrados :</string>
+    <string name="numero_celulares">Numero de celulares :</string>
+    <string name="precio_total">Precio total: </string>
 
 </resources>
