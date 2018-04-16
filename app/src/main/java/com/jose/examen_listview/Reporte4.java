@@ -21,17 +21,15 @@ public class Reporte4 extends AppCompatActivity {
         registro=Dato.obtener();
 
     }
-
     public void reporte4(View v){
         int conteo=0;
-        String negro=getResources().getString(R.string.negro);
         for (int i = 0; i <registro.size() ; i++) {
-            if (registro.get(i).getMarca().toString().equals("Apple")&&
+            String negro=getString(R.string.negro);
+            String apple=getString(R.string.apple);
+            if (registro.get(i).getMarca().toString().equals(apple)&&
                     registro.get(i).getColor().toString().equals(negro)){
-                conteo=conteo+1;
-
+                conteo++;
             }
-            Toast.makeText(getApplicationContext(),""+conteo,Toast.LENGTH_SHORT).show();
-        }
+        }Toast.makeText(getApplicationContext(),getResources().getString(R.string.numero_app)+conteo,Toast.LENGTH_SHORT).show();
     }
 }

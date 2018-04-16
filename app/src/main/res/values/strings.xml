@@ -44,6 +44,7 @@
     <string name="erro1">La caja de texto no puede estar vacia</string>
     <string name="error2">La caja no puede ser 0</string>
     <string name="reporte4">Reporte 4 </string>
+    <string name="numero_app">Numero de celular marca apple de color negro </string>
 
 
 </resources>
