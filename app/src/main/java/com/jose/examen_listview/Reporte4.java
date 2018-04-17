@@ -26,6 +26,7 @@ public class Reporte4 extends AppCompatActivity {
         for (int i = 0; i <registro.size() ; i++) {
             String negro=getString(R.string.negro);
             String apple=getString(R.string.apple);
+
             if (registro.get(i).getMarca().toString().equals(apple)&&
                     registro.get(i).getColor().toString().equals(negro)){
                 conteo++;

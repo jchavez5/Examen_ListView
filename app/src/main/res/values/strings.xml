@@ -49,5 +49,6 @@
     <string name="precio_promedio">Precio promedio de celulares marca nokia registrados :</string>
     <string name="numero_celulares">Numero de celulares :</string>
     <string name="precio_total">Precio total: </string>
+    <string name="error3">Esto es ta mal no puede haver . solo en la caja de texto</string>
 
 </resources>

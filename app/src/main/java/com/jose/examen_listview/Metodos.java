@@ -7,7 +7,7 @@ import android.widget.EditText;
  */
 
 public class Metodos {
-    public static boolean validar(EditText txt, String error, String erro2) {
+    public static boolean validar(EditText txt, String error, String erro2,String error3) {
         if (txt.getText().toString().equals("")) {
             txt.setError(error);
             return false;
@@ -16,7 +16,12 @@ public class Metodos {
             txt.setError(erro2);
             return false;
         }
+        if (txt.getText().toString().equals(".")) {
+            txt.setError(error3);
+            return false;
+        }
         return true;
     }
+
 
 }

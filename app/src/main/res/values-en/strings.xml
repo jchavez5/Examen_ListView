@@ -28,4 +28,5 @@
     <string name="precio_promedio">Average price of registered Nokia mobile phones:</string>
     <string name="precio_total">Total price:</string>
     <string name="numero_celulares">Number of cell phones :</string>
+    <string name="error3">This is wrong can not haver. only in the text box</string>
 </resources>

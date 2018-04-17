@@ -34,7 +34,7 @@ public class Celular extends AppCompatActivity {
         color_spinner.setAdapter(adapter2);
     }
     public void crear(View v){
-        if (Metodos.validar(txtValor,getResources().getString(R.string.erro1),getResources().getString(R.string.error2))){
+        if (Metodos.validar(txtValor,getResources().getString(R.string.erro1),getResources().getString(R.string.error2),getResources().getString(R.string.error3))){
             int posicion_marca=marca_spinner.getSelectedItemPosition();
             int posicion_color=color_spinner.getSelectedItemPosition();
             String marcaSelec=marca[posicion_marca];
