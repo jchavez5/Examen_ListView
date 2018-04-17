@@ -41,6 +41,8 @@
     </string-array>
     <string name="registro_guardado">Registro guardado exitosamente</string>
     <string name="no">No</string>
+    <string name="erro1">La caja de texto no puede estar vacia</string>
+    <string name="error2">La caja no puede ser 0</string>
 
 
 </resources>

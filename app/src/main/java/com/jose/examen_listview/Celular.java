@@ -34,15 +34,17 @@ public class Celular extends AppCompatActivity {
         color_spinner.setAdapter(adapter2);
     }
     public void crear(View v){
-        int posicion_marca=marca_spinner.getSelectedItemPosition();
-        int posicion_color=color_spinner.getSelectedItemPosition();
-        String marcaSelec=marca[posicion_marca];
-        String colorSelec=color[posicion_color];
-        double precio=Double.parseDouble(txtValor.getText().toString());
+        if (Metodos.validar(txtValor,getResources().getString(R.string.erro1),getResources().getString(R.string.error2))){
+            int posicion_marca=marca_spinner.getSelectedItemPosition();
+            int posicion_color=color_spinner.getSelectedItemPosition();
+            String marcaSelec=marca[posicion_marca];
+            String colorSelec=color[posicion_color];
+            double precio=Double.parseDouble(txtValor.getText().toString());
 
-        Registro_celulares r=new Registro_celulares(marcaSelec,colorSelec,precio);
-        r.guardar();
-        Toast.makeText(getApplicationContext(),getString(R.string.registro_guardado),Toast.LENGTH_SHORT).show();
+            Registro_celulares r=new Registro_celulares(marcaSelec,colorSelec,precio);
+            r.guardar();
+            Toast.makeText(getApplicationContext(),getString(R.string.registro_guardado),Toast.LENGTH_SHORT).show();
+        }
 
     }
     public void limpiar(View v){
