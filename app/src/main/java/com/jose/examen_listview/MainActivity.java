@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(in);
                         break;
                     case 2:
-                        in= new Intent( MainActivity.this,Reporte.class);
+                        in= new Intent( MainActivity.this,Reporte4.class);
                         startActivity(in);
                         break;
 

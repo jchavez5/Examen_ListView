@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Examen_ListView</string>
+    <string name="celulares">Cell phones</string>
+    <string name="lista">List</string>
+    <string name="reporte">Report</string>
+    <string name="registro_celular">" Cell phone registration"</string>
+    <string name="marca">" Brand:"</string>
+    <string name="nokia">"Nokia "</string>
+    <string name="huawei">Huaewi</string>
+    <string name="apple">Apple</string>
+    <string name="samsung">Samsung</string>
+    <string name="color">Color:</string>
+    <string name="valor">Price:</string>
+    <string name="guardar">Save</string>
+    <string name="limpiar">Clean</string>
+    <string name="rojo">Red</string>
+    <string name="azul">Blue</string>
+    <string name="negro">Black</string>
+    <string name="blanco">White</string>
+    <string name="registro_guardado">"Successfully saved record "</string>
+    <string name="no">No</string>
+    <string name="erro1">"The text box can not be empty "</string>
+    <string name="error2">"The box can not be 0 "</string>
+</resources>

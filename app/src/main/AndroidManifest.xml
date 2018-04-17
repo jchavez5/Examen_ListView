@@ -18,7 +18,7 @@
         </activity>
         <activity android:name=".Celular" />
         <activity android:name=".Lista" />
-        <activity android:name=".Reporte"></activity>
+        <activity android:name=".Reporte4"></activity>
     </application>
 
 </manifest>
