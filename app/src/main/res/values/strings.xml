@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Examen_ListView</string>
     <string name="celulares">Celulares</string>
-    <string name="lista">Listada</string>
+    <string name="lista">Lista</string>
     <string name="reporte">Reporte</string>
 
     <string-array name="opciones">
@@ -39,6 +39,8 @@
         <item>@string/blanco</item>
         <item>@string/negro</item>
     </string-array>
+    <string name="registro_guardado">Registro guardado exitosamente</string>
+    <string name="no">No</string>
 
 
 </resources>

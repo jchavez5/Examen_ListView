@@ -85,13 +85,14 @@
         android:id="@+id/id_boton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="calculo"
+        android:onClick="crear"
         android:text="@string/guardar" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="limpiar"
         android:text="@string/limpiar" />
 
 </LinearLayout>
