@@ -22,4 +22,5 @@
     <string name="no">No</string>
     <string name="erro1">"The text box can not be empty "</string>
     <string name="error2">"The box can not be 0 "</string>
+    <string name="reporte4">Report 4</string>
 </resources>

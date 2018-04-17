@@ -43,6 +43,7 @@
     <string name="no">No</string>
     <string name="erro1">La caja de texto no puede estar vacia</string>
     <string name="error2">La caja no puede ser 0</string>
+    <string name="reporte4">Reporte 4 </string>
 
 
 </resources>

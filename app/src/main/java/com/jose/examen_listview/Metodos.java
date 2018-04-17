@@ -18,4 +18,5 @@ public static boolean validar(EditText txt, String error, String erro2){
     }
     return true;
 }
+
 }
